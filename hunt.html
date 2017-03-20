@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>bulie</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style type="text/css">
+	#cs{width: 180px;height: 480px;border-right: 20px; border: solid pink 2px;  }
+	#cs p{margin-top: 20px;margin-left: 15px;line-height: 30px;}
+	#rand{width: 70px;height: 30px;border-radius: 3px; background-color:pink;}
+	#fresult{width: 100px;height: 50px;border: solid pink 2px;margin-left: 20px; border-radius: 25px;padding-left: 5px;}
+  #IQ,#Mood{width: 80px;}
+</style>
+
+</head>
+<body>
+
+    <div id="cs">
+    <p>
+      先测试你的运气呀：<br/>点击按钮：<br/>
+      <input type="button" id='rand' onclick='fourtune()' value="幸运石"/><span id='fresult'>wait</span>
+          </p>
+      <p>再测你的智商：<br/>
+      找出与众不同的一个：N-A-V-H-F
+      <input type="text" id="IQ"  >
+          </p>
+          <p>最后看心情：<br/>
+           王后：魔镜魔镜，世界上谁最美？<br/>
+          <input type="text" id="Mood"  ><br>
+              <input type="submit" value="go go go" onclick="subm()">
+              <input type="button" id="reset" value="reset" onclick="res()" >
+          </p>
+    </div>
+    
+     <script type="text/javascript">
+     var fr=document.getElementById('fresult');
+     var iqr=document.getElementById('IQ');
+     var mor=document.getElementById('Mood');
+     var result="";
+     var beaut="queen";
+     var I="v";
+     function fourtune(){
+		fr.innerHTML= Math.ceil(Math.random(0,1)*10);
+	}
+	function subm(){
+		{
+         
+         if(iqr.value !==I){
+         	result ='IQ好像还差点 ';
+         }
+         if(mor.value !==beaut){
+         	result=result+'王后心情不美丽  ';
+         	  
+         }
+         if(parseInt(fr.innerHTML)<5){
+         	result=result+'运气好像还差一点点  ';
+         	
+         }
+          
+        if((iqr.value ===I)&&(mor.value ===beaut)&&(parseInt(fr.innerHTML)>=5))
+         	{
+         		result="bigboom";
+         	}
+         		 alert(result);
+          
+          }
+
+         result="";
+         
+
+
+}
+function res(){
+	iqr.value="";
+	mor.value="";
+	fr.innerHTML="";
+}
+</script>
+   
+
+</body>
+</html>
