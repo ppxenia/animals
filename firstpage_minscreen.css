@@ -1,0 +1,35 @@
+ @keyframes aa{
+0%{ left: 400px;}
+
+100%{left:200px;}
+ }
+ 
+
+ html {background: url(../css/bg.png) no-round;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}   
+ #header{height: 200px;}
+ #logo{height: 190px;width:30%; background-color: grey; float: left;overflow: hidden;}
+ #top_paint{height: 190px;background-color: grey; text-align: center; width:50%;float:left; margin-left:50px;text-align: center; font-size: 2em;}
+ #container{height: 150px;}
+ #roll_info{ width: 400px;height: 150px;position: relative;left: 20%;}
+ .small{position:absolute;border-radius: 5px/6px;overflow: hidden;top: 100px;}
+ .small img{width: 20px; height:20px;}
+ #cr img{width: 100px;height: 100px;}
+ #lr{animation: aa 5s ease .1s  infinite;border-radius: 0; background-color: blue;}
+ #rr{left: 440px;}
+ #br{left: 465px;}
+ #cr{position: absolute;left: 50px;top:20px;overflow: hidden;border-radius: 20px/30px;}
+ #ls,#rs{display: none;}
+ #list{width:650px;height: 300px;border: 2px solid grey;margin-left:10px;}
+ #things{position: relative;width: 100px;height: 120px;left:10px;top:30px; background-color: grey;}     
+ #things ul{padding-top: 5px;}
+ #doing{position:absolute;left: 200px;top:400px;width: 120px;height: 120px;border: pink solid 3px;border-radius: 50px;}
+ #hunt_frame{width: 220px;height: 220px;background-color: grey;}
+ #photo img,#food img,#note img ,#cloth img{display: inline;width: 100px;height: 200px;margin: 0 5px;}
+ .frame{position: absolute;left:400px;top:400px;display: none;width: 220px;height: 220px;background-color: pink;}
+ ul li{position: relative;margin-top: 6px;z-index: 10;}
+ ul li:hover{cursor: pointer;text-decoration: underline overline;} 
+ .actionOfShopping{position: absolute;left:400px;top:400px;display: none;width: 220px;height: 220px;background-color: pink;} 
+ .actionOfPlay{position: absolute;left:400px;top:400px;width: 250px;height: 220px;background-color: pink;display: none;} 
+ .actionOfShopping a{width: 100px;height: 110px;float: left;background-color: #888888;margin:5px;text-align: center;padding-top: 100px;}
+ .actionOfShopping a:hover{background-color:pink;}
+   #footer{margin-top: 200px; text-align: center;border: 5px grey dotted;padding: 10px;margin-left:150px;width: 100px;}

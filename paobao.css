@@ -1,0 +1,48 @@
+@keyframes eig{
+	0%{transform: rotate(0deg);  -ms-transform: rotate(0deg);-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); }
+	100%{transform: rotate(360deg);  -ms-transform: rotate(360deg);-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); }
+}
+@keyframes aa{
+	0%{left: 200px;border-bottom:86px solid #fcf921;border-left: 150px solid transparent;border-right: 50px solid transparent;}
+	100%{left: 0;border-bottom:173px solid #fcf921;border-left: 300px solid transparent;border-right: 100px solid transparent;}
+
+}
+
+body{margin:0px; padding: 0px;}
+header{left: 10px;top:5px;height: 200px;background-color: purple;width: 100%;}
+#logo iframe{width: 25%;float: left;top:5px;}
+#shoppingTitle{float: left;width: 70%;margin-left: 10px;font-size: 3em;text-align: center;border:2px black solid;margin-top: 50px;}
+#container{position: absolute;left: 50px;width: 900px;border-left:red solid 2px;border-right: red solid 2px;height: 800px;}
+nav{position: relative;top: 10px;left: 30%;width: 38%;height: 30px;border-radius: 10px/10px;border: yellow solid 2px;}
+nav a{margin-left:30px;margin-right: 30px;font-size: 1em;text-align: center;border-bottom: black 2px solid;}
+td{width: 110px;height: 180px;}
+td img{width: 100px;height: 150px;overflow: hidden;}
+.goods{display: none;}
+#ball{display: block;width: 500px;height: 500px;position: absolute;left: 25%;top: 50px;animation: eig 30s ease 0s infinite;}
+.partOfTri{content:"";width: 0; height: 0; border-left: 150px solid transparent;border-right: 50px solid transparent;position: absolute;}
+#tripe{ bottom: 325px;left: 100px;border-bottom:86px solid #ffa042;transform: rotate(0deg);  -ms-transform: rotate(0deg);-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg);}
+#tripe1{bottom: 411px;left: 250px;border-bottom:86px solid #afaf61;transform-origin:0% 100%;transform: rotate(60deg);  -ms-transform: rotate(60deg);-moz-transform: rotate(60deg); -webkit-transform: rotate(60deg); -o-transform: rotate(60deg); }
+#tripe2{bottom: 325px;left: 400px;border-bottom:86px solid #984b4b;transform-origin:0% 100%;transform: rotate(120deg);  -ms-transform: rotate(120deg);-moz-transform: rotate(120deg); -webkit-transform: rotate(120deg); -o-transform: rotate(120deg); }
+#tripe3{bottom:152px;left: 400px;border-bottom:86px solid #6c3365;transform-origin:0% 100%;transform: rotate(180deg);  -ms-transform: rotate(180deg);-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); }
+#tripe4{bottom:66px;left: 250px;border-bottom:86px solid #9999cc;transform-origin:0% 100%;transform: rotate(240deg);  -ms-transform: rotate(240deg);-moz-transform: rotate(240deg); -webkit-transform: rotate(240deg); -o-transform: rotate(240deg); }
+#tripe5{bottom:152px;left:100px;border-bottom:86px solid #ffe097;transform-origin:0% 100%;transform: rotate(300deg);  -ms-transform: rotate(300deg);-moz-transform: rotate(300deg); -webkit-transform: rotate(300deg); -o-transform: rotate(300deg); }
+.partOfTri p{margin-top:30px;margin-left:-62px;}
+.littleLogo{ width: 0px;height: 0px;bottom: -86px;left: -43px;position: absolute; border-bottom:86px solid #d3ff93;border-left: 43px solid transparent;border-right: 50px solid transparent; }
+.littleLogo img{width: 30px;height: 30px;left:-10px;bottom:-40px;overflow: hidden;position: relative;}
+section{height: 100px;background-color: pink;top:500px;position: relative;}
+#footer{height: 50px;width: 500px;background-color:#00bbff;position:relative;top:800px;left:10%;width:80%;}
+
+
+
+/*#tripe2{bottom: 120px;left: 300px;transform: rotate(120deg);  -ms-transform: rotate(120deg);-moz-transform: rotate(120deg); -webkit-transform: rotate(120deg); -o-transform: rotate(120deg); }
+#tripe3{bottom: 500px;left: 5px;transform: rotate(180deg);  -ms-transform: rotate(180deg);-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); }
+#tripe4{bottom: 500px;left: 150px;transform: rotate(240deg);  -ms-transform: rotate(240deg);-moz-transform: rotate(240deg); -webkit-transform: rotate(240deg); -o-transform: rotate(240deg); }
+#tripe5{bottom: 500px;left: 300px;transform: rotate(300deg);  -ms-transform: rotate(300deg);-moz-transform: rotate(300deg); -webkit-transform: rotate(300deg); -o-transform: rotate(300deg); }
+*/
+
+
+
+
+
+
+
