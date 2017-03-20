@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="icon" href="../css/mogu.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../css/firstpage_minscreen.css" media="screen and (max-width:899px)  and
+(min-width:500px)">
+<link rel="stylesheet" type="text/css" href="../css/firstpage_midscreen.css" media="screen and (max-width:1400px) and
+(min-width:900px)">
+<title>Animals</title>
+</head>
+<body>
+    <div id="header">
+    <div id="logo">
+    <!--<img src="../css/logo.png" height=" 220px" width="400px" >--> 
+    <iframe  frameborder='0' src="logo.html"  scrolling="no"></iframe>   <!-- frameborder='1'则有frame边框 -->
+    </div>
+    <div id="top_paint"><h1>animals life</h1></div>
+    </div>
+    <div id="container">
+    	 <div id="roll_info">
+    	 	<div id="lr" class="small"><img src="../css/fat-dog.png"  /></div>
+    	 	<div id="cr"><img src="../css/logo.png"/></div>
+    	 	<div id="rr" class="small"><img src="../css/snail.png"/ ></div>
+    	 	<div id="br" class="small"><img src="../css/bamboo.png"/ ></div>
+    	 	<div id="ls"><img src="../css/foot_print.png" /></div>
+    	 	<div id="rs"><img src="../css/foot_print.png" /></div>
+    	 </div>
+    	 <div  id="list">
+    	 <div id="things">
+    	 <ul>
+    	 <li id="showP">相册 </li>
+    	 <li id="showF">食物</li>
+    	 <li id="showC">衣服</li>
+    	 <li id="showN">笔记</li>
+         </ul>
+         </div>
+         <div id="photo" class="frame"><img src="../css/cloth02.png"/></div>
+         <div  id="food" class="frame"><span>food</span><img src="../css/cloth03.png"/></div>
+         <div  id="cloth" class="frame"><span>cloth</span><img src="../css/cloth03.png"/></div>
+         <div  id="note" class="frame"><span>note</span><img src="../css/cloth03.png"/></div>
+         <div id="doingshow">
+         <div id="s" class="actionOfShopping">
+         <a href="https://www.taobao.com/">taobao</a>
+         <a href="TPB.html" >paobao</a>
+         </div>
+         <div id="play" class="actionOfPlay">
+         <iframe src="hunt.html" id="hunt_frame"></iframe>
+         </div>
+         </div>
+         <div id="doing" > 
+         	<ul>
+         	<li id="takePhoto">拍照</li>
+         	<li id="Hunt">捕猎</li>
+         	<li id="Shopping">shopping</li>
+         	<li>读书</li>
+            </ul>
+         </div>
+        </div>
+       </div>
+    <div id="footer">勇者无畏 拼搏无悔</div>
+    <script type="text/javascript" src=../ajquery/lib/jquery.js></script>  
+    <script type="text/javascript">
+         $("#Hunt").click(function(){
+         $("#s").hide();
+         $("#play").toggle();     
+    });
+      $("#Shopping").click(function(event) {
+        $("#play").hide();
+      $("#s").toggle();
+     
+      })
+    </script>
+    <script type="text/javascript" src="../js/roll.js"></script>
+    <!--<script type="text/javascript" src="../js/ooooo1.js"></script>-->
+</body>
+</html>
