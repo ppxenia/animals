@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>登录</title>
+<link rel="shortcut icon" href="../css/mogu.ico"/>
+<link type="image/x-icon" rel="icon" href="../css/mogu.ico" />
+<link rel="Bookmark" href="../css/mogu.ico"/>
+<link rel="icon" href="../css/mogu.ico" mask="" sizes="any"><link>
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<link href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" rel="stylesheet">
+<style type="text/css">
+	* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+@keyframes animate{
+	0%{margin-left: 5%;}
+	
+    60%{margin-left: 80%;}
+   
+    100%{margin-left: 5%;}
+   }
+   @keyframes animat{
+	0%{margin-left: 5%;}
+	
+    60%{margin-left: 80%;}
+   
+    100%{margin-left: 90%;}
+    
+}
+   header{width: 40%;height:300px;margin-left: 30%;border: black solid 2px;margin-bottom: 50px; border-radius: 30px;overflow: hidden;
+}
+#headerbg{width: 100%;height: 100%;}
+#container{width: 30%;margin-left: 40%;}
+div{margin-bottom: 20px;}
+button{margin-left: 25%;background-color: pink;width: 100px;height: 50px;}
+#animat{animation: animat 5s linear .1s ;position: absolute;margin-left: 90%;}
+.IPT{width: 240px;height: 45px;line-height: 30px;padding: 2px;margin-top: 10px;}
+#lpic{width: 30px;height: 30px;border-radius: 20% 20%;}
+input{margin-left: 10px;position: absolute; background-color:#dddddd;height: 30px;}
+#jzt{width: 100px;height: 100px;}
+</style>
+</head>
+<body>
+ <header><img id='headerbg' src="../css/nlogo.png"></header>
+ <div  id="container" >
+<div class="IPT"><span><img src="../css/lpic.png" id="lpic"></span><input type="text" name="" placeholder="xenia is ok " id="lname"></div>
+<div class="IPT"><img src="../css/lpic02.png" id="lpic"><input type="text" name="" placeholder="only number" id="lpsw"></div>
+<button type="button" id="get_in">进入</button>
+</div>
+<span id="animat"><a class="am-icon-btn am-icon-blind"></a>
+</span><br>
+<span style="margin-left:90%"><img src="../css/jzt.png" id="jzt"></span>
+ <script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.0-beta.4/angular.min.js"></script>
+ <script type="text/javascript">
+ 	var log=document.getElementById('get_in');
+ 	var ln=document.getElementById('lname');
+ 	var lp=document.getElementById('lpsw');
+ 	log.addEventListener('click',show,false);
+ 	function show(){
+        if(ln.value=='xenia'&&lp.value=='123'){
+        	// window.open('firstPage.html')
+        //log.innerHTML='<a href="firstPage.html">JINGRU </a>'
+       window.location.href="firstPage.html";
+        }
+        else
+        	alert('用户名不存在或密码错误！')
+ 		
+ 		
+ 	}
+  
+ </script>
+</body>
+</html>
