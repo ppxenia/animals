@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	<style type="text/css">
+  @keyframes CITCurrentP{
+    0%{width: 330px;}
+    100%{width: 350px;}
+  }
+  @keyframes eig{
+  0%{transform: rotate(0deg);  -ms-transform: rotate(0deg);-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); }
+  100%{transform: rotate(360deg);  -ms-transform: rotate(360deg);-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); }
+}
+
+	  *{margin: 0;padding: 0;position: relative;z-index: 2}
+		  header{width: 1024px;height: 250px;background-color: grey;}
+		    #logo{width: 300px;height:200px;float: left;padding-top: 40px;}
+		    #tito{width: 700px;height: 200px;float: left;text-align:center;font-size:50px;padding-top: 100px;}
+        nav{margin-left: 100px; width:700px;height: 200px;border:2px black solid;background-color: grey;margin: 0 auto;margin-top:10px;}
+        nav a{float:left;width: 100px;height: 60px;border:1px black solid;margin-left: 50px;text-align: center;padding-top: 30px;background-color: pink;}
+        .zhuandong{transform: rotate(45deg);  -ms-transform: rotate(45deg);-moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);border-radius: 0 80% 40% 80%};
+        .huifu{transform: rotate(-45deg);  -ms-transform: rotate(-45deg);-moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg); }
+         #goods{width:800px;height: 1000px;margin: 0 auto;margin-top: 10px;}
+        #furniture_box{width: 350px;height: 500px;border:2px solid grey;float: left;}
+        .smallP{width: 100px;height: 350px;float: left;margin-left: 10px;overflow: hidden;}
+        p{position: relative;z-index: 5;}
+        .bottom_Information{width: 300px;height: 100px;margin-top: 370px;background-color: pink;margin-left: 10px;}
+        .currentP{position: absolute; height: 350px;z-index:10; animation: CITCurrentP 0.5s ease-out 1 forwards;}  
+       #clothes_box{width: 350px;height: 500px;border:2px solid grey;float: right;}
+        #nameplate_box{width: 350px;height: 500px;border:2px solid grey;float: left;margin-top: 10px;}
+        #tools_box{width: 350px;height: 500px;border:2px solid grey;float: right;margin-top: 10px;}
+        #ball{display: block;width: 500px;height: 500px;position: absolute;left: 25%;top: 1550px;animation: eig 10s linear 0s 3; border-radius: 50%;}
+        .partOfTri{content:"";width: 0; height: 0; border-left: 150px solid transparent;border-right: 50px solid transparent;position: absolute;}
+        #tripe{ bottom: 325px;left: 100px;border-bottom:86px solid pink;transform: rotate(0deg);  -ms-transform: rotate(0deg);-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg);}
+        #tripe1{bottom: 411px;left: 250px;border-bottom:86px solid grey;transform-origin:0% 100%;transform: rotate(60deg);  -ms-transform: rotate(60deg);-moz-transform: rotate(60deg); -webkit-transform: rotate(60deg); -o-transform: rotate(60deg); }
+        #tripe2{bottom: 325px;left: 400px;border-bottom:86px solid pink;transform-origin:0% 100%;transform: rotate(120deg);  -ms-transform: rotate(120deg);-moz-transform: rotate(120deg); -webkit-transform: rotate(120deg); -o-transform: rotate(120deg); }
+        #tripe3{bottom:152px;left: 400px;border-bottom:86px solid grey;transform-origin:0% 100%;transform: rotate(180deg);  -ms-transform: rotate(180deg);-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); }
+        #tripe4{bottom:66px;left: 250px;border-bottom:86px solid pink;transform-origin:0% 100%;transform: rotate(240deg);  -ms-transform: rotate(240deg);-moz-transform: rotate(240deg); -webkit-transform: rotate(240deg); -o-transform: rotate(240deg); }
+        #tripe5{bottom:152px;left:100px;border-bottom:86px solid grey;transform-origin:0% 100%;transform: rotate(300deg);  -ms-transform: rotate(300deg);-moz-transform: rotate(300deg); -webkit-transform: rotate(300deg); -o-transform: rotate(300deg); 
+        p{direction: rtl;}
+  }
+	</style>
+	</head>
+	<body>
+		<header> 
+       <div id="logo"><iframe frameborder="0" src="logo.html"  scrolling="no"></iframe>
+    </div>
+    <div id="tito">
+    	WELCOME TO PAOBAO
+    </div>
+    </header>
+    <nav id="dh">
+    	<a href="">家装</a>
+    	<a href="">服饰</a>
+    	<a href="">铭牌</a>
+    	<a href="">工具</a>
+    </nav>
+    <div id="goods">
+    <div id="furniture_box"> 
+     <section class="smallP" style="background-color: grey"><p>...</p></section>
+     <section class="smallP" style="background-color: pink"><a href="firstPage.html">回到首页</a><br>
+     </section>
+     <section class="smallP" style="background-color: grey"><p>hello</p></section>
+      <div class="bottom_Information" >hello</div>
+      </div>
+      <div id="clothes_box">
+      <section class="smallP" style="background-color: grey"><p>...</p></section>
+      <section class="smallP" style="background-color: pink"></section>
+      <section class="smallP" style="background-color: grey"><p>hello</p></section>
+      <div class="bottom_Information"></div>
+      </div>
+       <div id="nameplate_box">
+       <section class="smallP" style="background-color: grey"><p>hi</p></section>
+      <section class="smallP" style="background-color: pink"></section>
+      <section class="smallP" style="background-color: grey"><p>...</p></section>
+      <div class="bottom_Information"></div>
+      </div>
+       <div id="tools_box">
+      <section class="smallP" style="background-color: grey"><p>...</p></section>
+      <section class="smallP" style="background-color: pink"></section>
+      <section class="smallP" style="background-color: grey"><p>嚯嚯嚯</p></section>
+      <div class="bottom_Information"></div>
+      </div>
+    </div>
+    <div id="ball" class="goods"> 
+    <div id="tripe"  class="partOfTri"><p>一个旋转的元素 </p>
+    </div>
+    <div id="tripe1" class="partOfTri"><p>一个旋转的元素</p>
+    </div>
+    <div id="tripe2" class="partOfTri"><p>一个旋转的元素</p>
+    </div>
+    <div id="tripe3" class="partOfTri"><p>一个旋转的元素</p>
+    </div>
+    <div id="tripe4" class="partOfTri"><p>一个旋转的元素</p>
+    </div>
+    <div id="tripe5" class="partOfTri"><p>一个旋转的元素</p>
+    </div> 
+    </div>
+    <script type="text/javascript">
+       window.onload=function(){
+       var daohang=document.getElementById('dh');
+       var goods_a=document.getElementById('goods');
+     
+      var e;
+      var target;
+       daohang.onmouseover=function(event){
+         e =event|| window.event;
+          target=event.target || e.srcElement;
+                if(target.nodeName.toLowerCase()=='a'){
+                    target.className='zhuandong';
+                } }
+          daohang.onmouseout=function(event){
+          e =event|| window.event;
+           target=event.target || e.srcElement;
+                if(target.nodeName.toLowerCase()=='a'){
+                    target.className='huifu';}
+                  }
+          goods_a.onclick=function(event){
+          e =event|| window.event;
+           target=event.target || e.srcElement;
+                if(target.nodeName.toLowerCase()=='section'){
+                  target.className='currentP';
+                  }
+                
+                 }
+          goods_a.onmouseout=function(event){
+          e =event|| window.event;
+           target=event.target || e.srcElement;
+          if(target.nodeName.toLowerCase()=='section'){
+           target.className='smallP';
+           }
+           }
+          
+            }
+   </script>
+	</body>
+	</html>	
